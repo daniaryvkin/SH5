@@ -1,6 +1,17 @@
 import random
 
 
+class Human2():
+    def __init__(self, name2='Human2', job2="C++", home2=None, car2=None):
+        self.name2 = name2
+        self.money2 = 0
+        self.satiety2 = 50
+        self.gladness2 = 50
+        self.job2 = job2
+        self.home2 = home2
+        self.car2 = car2
+
+
 class Human:
     def __init__(self, name='Human', job=None, home=None, car=None):
         self.name = name
@@ -172,6 +183,10 @@ class Auto:
         else:
             print('The car cannot move....')
             return False
+
+
+def gust():
+    pass
 
 
 class Home:
